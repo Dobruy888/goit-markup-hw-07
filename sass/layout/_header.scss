@@ -1,0 +1,123 @@
+.page-header {
+  border-bottom: 1px solid #ececec;
+
+  .inner {
+    color: var(--primary-text-color);
+  }
+}
+/* логотип */
+
+/* навигация */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+
+  .current {
+    color: var(--accent-color);
+
+    &::after {
+      background-color: var(--accent-color);
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+      left: 0px;
+      bottom: -1px;
+    }
+  }
+
+  .item + .item {
+    margin-left: 50px;
+  }
+}
+
+.title-info {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* контакты */
+.heder-contacts {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.site-contacts {
+  display: flex;
+  margin-left: auto;
+  color: var(--header-contacts-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .item + .item {
+    margin-left: 50px;
+  }
+}
+.item-contacts + .item-contacts {
+  margin-left: 50px;
+}
+.mail-icon-click {
+  margin-right: 10px;
+  .mail-icon:hover &,
+  .mail-icon:focus & {
+    fill: var(--accent-color);
+  }
+}
+.tel-icon-click {
+  margin-right: 10px;
+  .tel-icon:hover &,
+  .tel-icon:focus & {
+    fill: var(--accent-color);
+  }
+}
+.mail-icon {
+  justify-content: center;
+  align-items: center;
+  fill: var(--header-contacts-text-color);
+  position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.tel-icon {
+  justify-content: center;
+  align-items: center;
+  fill: var(--header-contacts-text-color);
+  position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}

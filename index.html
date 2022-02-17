@@ -15,7 +15,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body class="page">
     <!--шапка сайта-->
@@ -23,7 +24,7 @@
       <!--логотип-->
       <div class="container main-nav">
         <nav class="main-nav">
-          <a href="./index.html" class="logo link"> Web<span class="inner">Studio</span></a>
+          <a href="./index.html" class="header-logo link"> Web<span class="inner">Studio</span></a>
           <!--навигация-->
           <ul class="site-nav list">
             <li class="item">
@@ -37,7 +38,7 @@
         </nav>
         <!--контакты-->
         <div class="heder-contacts"></div>
-        <ul class="site-contacts list">
+        <ul class="site-contacts">
           <li class="item-contacts">
             <a href="mailto:info@devstudio.com" class="mail-icon title-info site-contacts link"
               ><svg class="mail-icon mail-icon-click" width="16" height="12">
@@ -45,7 +46,7 @@
               >info@devstudio.com</a
             >
           </li>
-          <li class="">
+          <li class="item-contacts">
             <a href="tel:+380961111111" class="tel-icon title-info site-contacts link"
               ><svg class="tel-icon tel-icon-click" width="10" height="16">
                 <use href="./images/svgsprite/symbol-defs.svg#icon-tel"></use>
@@ -65,7 +66,7 @@
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button data-modal-open type="button" class="hero-button">Заказать услугу</button>
+          <button data-modal-open type="button" class="hero-button btn">Заказать услугу</button>
         </div>
       </section>
 
@@ -73,9 +74,9 @@
       <section class="benefits-section">
         <div class="container">
           <h2 class="visually-hidden">Преимущества нашей студии</h2>
-          <ul class="benefits box">
+          <ul class="benefits">
             <li class="item">
-              <div class="box-icon">
+              <div class="benefits-icon">
                 <svg width="70" height="70">
                   <use href="./images/svgsprite/symbol-defs.svg#icon-antenna"></use>
                 </svg>
@@ -86,7 +87,7 @@
               </p>
             </li>
             <li class="item clock">
-              <div class="box-icon">
+              <div class="benefits-icon">
                 <svg width="70" height="70">
                   <use href="./images/svgsprite/symbol-defs.svg#icon-clock"></use>
                 </svg>
@@ -97,7 +98,7 @@
               </p>
             </li>
             <li class="item diagram">
-              <div class="box-icon">
+              <div class="benefits-icon">
                 <svg width="70" height="70">
                   <use href="./images/svgsprite/symbol-defs.svg#icon-diagram"></use>
                 </svg>
@@ -108,7 +109,7 @@
               </p>
             </li>
             <li class="item astronaut">
-              <div class="box-icon">
+              <div class="benefits-icon">
                 <svg width="70" height="70">
                   <use href="./images/svgsprite/symbol-defs.svg#icon-astronaut"></use>
                 </svg>
@@ -447,7 +448,7 @@
                 placeholder="E-mail"
                 id="user-email-footer"
               />
-              <button type="submit" class="hero-button footer-btn">
+              <button type="submit" class="btn footer-btn">
                 Подписаться<svg class="icon-send" width="24" height="24">
                   <use href="./images/svgsprite/symbol-defs.svg#icon-send"></use>
                 </svg>
@@ -534,7 +535,7 @@
               Соглашаюсь с рассылкой и принимаю&nbsp;
               <a href="" class="conditions-link">Условия договора</a>
             </label>
-            <button type="submit" class="hero-button">Отправить</button>
+            <button type="submit" class="modal-btn btn">Отправить</button>
           </div>
         </form>
       </div>
