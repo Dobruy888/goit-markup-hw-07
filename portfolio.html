@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="page">
+    <!--шапка сайта-->
+    <header class="page-header">
+      <!--логотип-->
+      <div class="container main-nav">
+        <nav class="main-nav">
+          <a href="./index.html" class="logo link"> Web<span class="inner">Studio</span></a>
+          <!--навигация-->
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="index.html" class="title-info site-nav link">Студия</a>
+            </li>
+            <li class="item">
+              <a href="portfolio.html" class="title-info site-nav link current">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="title-info site-nav link">Контакты</a></li>
+          </ul>
+        </nav>
+        <!--контакты-->
+        <div class="heder-contacts"></div>
+        <ul class="site-contacts list">
+          <li class="item-contacts">
+            <a href="mailto:info@devstudio.com" class="mail-icon title-info site-contacts link"
+              ><svg class="mail-icon mail-icon-click" width="16" height="12">
+                <use href="./images/svgsprite/symbol-defs.svg#icon-mail"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="">
+            <a href="tel:+380961111111" class="tel-icon title-info site-contacts link"
+              ><svg class="tel-icon tel-icon-click" width="10" height="16">
+                <use href="./images/svgsprite/symbol-defs.svg#icon-tel"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!--Кнопки портфолио -->
+      <section class="section-main">
+        <div class="container">
+          <h1 class="visually-hidden">Примеры работ</h1>
+          <ul class="main-btn">
+            <li class="item"><button class="link" type="button">Все</button></li>
+            <li class="item"><button class="link" type="button">Веб-сайты</button></li>
+            <li class="item"><button class="link" type="button">Приложения</button></li>
+            <li class="item"><button class="link" type="button">Дизайн</button></li>
+            <li class="item"><button class="link" type="button">Маркетинг</button></li>
+          </ul>
+
+          <!-- Примеры работ -->
+          <ul class="section-examples list">
+            <li class="item-flex">
+              <div class="ski-box-pic">
+                <img
+                  class="pic"
+                  width="370"
+                  height="294"
+                  src="images/img.jpg"
+                  alt="открытый ноутбук"
+                />
+                <p class="ski-box-text">
+                  Технокряк это современная площадка распространения коронавируса. Компании
+                  используют эту платформу для цифрового шпионажа и атак на защищённые сервера
+                  конкурентов.
+                </p>
+              </div>
+              <div class="project-name">
+                <h2 class="title">Технокряк</h2>
+                <p class="text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="item-flex">
+              <div class="ski-box-pic">
+                <img
+                  class="pic"
+                  width="370"
+                  height="294"
+                  src="images/img11.jpg"
+                  alt="баскетболисты в игре"
+                />
+                <p class="ski-box-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus explicabo
+                  voluptatem ullam facere nostrum architecto, illo eos perspiciatis? Aut, esse!
+                  Aperiam, quo necessitatibus delectus provident labore neque maxime adipisci unde!
+                </p>
+              </div>
+              <div class="project-name">
+                <h2 class="title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                <p class="text">Дизайн</p>
+              </div>
+            </li>
+            <li class="item-flex">
+              <div class="ski-box-pic">
+                <img
+                  class="pic"
+                  width="370"
+                  height="294"
+                  src="images/img22.jpg"
+                  alt="лого и название ресторана"
+                />
+                <p class="ski-box-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dicta porro
+                  doloremque consectetur, ad cupiditate deleniti dignissimos beatae esse explicabo
+                  quo iure asperiores dolorem voluptate cumque ut fugiat, quasi necessitatibus.
+                </p>
+              </div>
+              <div class="project-name">
+                <h2 class="title">Ресторан <span lang="en">Seafood</span></h2>
+                <p class="text">Приложение</p>
+              </div>
+            </li>
+            <li class="item-flex">
+              <div class="ski-box-pic">
+                <img class="pic" width="370" height="294" src="images/img33.jpg" alt="наушники" />
+                <p class="ski-box-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dicta porro
+                  doloremque consectetur, ad cupiditate deleniti dignissimos beatae esse explicabo
+                  quo iure asperiores dolorem voluptate cumque ut fugiat, quasi necessitatibus.
+                </p>
+              </div>
+              <div class="project-name">
+                <h2 class="title">Проект <span lang="en">Prime</span></h2>
+                <p class="text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="item-flex">
+              <div class="ski-box-pic">
+                <img class="pic" width="370" height="294" src="images/img44.jpg" alt="коробочки" />
+                <p class="ski-box-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dicta porro
+                  doloremque consectetur, ad cupiditate deleniti dignissimos beatae esse explicabo
+                  quo iure asperiores dolorem voluptate cumque ut fugiat, quasi necessitatibus.
+                </p>
+              </div>
+              <div class="project-name">
+                <h2 class="title">Проект <span lang="en">Boxes</span></h2>
+                <p class="text">Приложение</p>
+              </div>
+            </li>
+            <li class="item-flex">
+              <div class="ski-box-pic">
+                <img
+                  class="pic"
+                  width="370"
+                  height="294"
+                  src="images/img55.jpg"
+                  alt="экран компьютера"
+                />
+                <p class="ski-box-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dicta porro
+                  doloremque consectetur, ad cupiditate deleniti dignissimos beatae esse explicabo
+                  quo iure asperiores dolorem voluptate cumque ut fugiat, quasi necessitatibus.
+                </p>
+              </div>
+              <div class="project-name">
+                <h2 class="title" lang="en">Inspiration has no Borders</h2>
+                <p class="text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="item-flex">
+              <div class="ski-box-pic">
+                <img
+                  class="pic"
+                  width="370"
+                  height="294"
+                  src="images/img66.jpg"
+                  alt="открытая книга"
+                />
+                <p class="ski-box-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dicta porro
+                  doloremque consectetur, ad cupiditate deleniti dignissimos beatae esse explicabo
+                  quo iure asperiores dolorem voluptate cumque ut fugiat, quasi necessitatibus.
+                </p>
+              </div>
+              <div class="project-name">
+                <h2 class="title">Издание Limited Edition</h2>
+                <p class="text">Дизайн</p>
+              </div>
+            </li>
+            <li class="item-flex">
+              <div class="ski-box-pic">
+                <img class="pic" width="370" height="294" src="images/img77.jpg" alt="бирка" />
+                <p class="ski-box-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dicta porro
+                  doloremque consectetur, ad cupiditate deleniti dignissimos beatae esse explicabo
+                  quo iure asperiores dolorem voluptate cumque ut fugiat, quasi necessitatibus.
+                </p>
+              </div>
+              <div class="project-name">
+                <h2 class="title">Проект <span lang="en">LAB</span></h2>
+                <p class="text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="item-flex">
+              <div class="ski-box-pic">
+                <img
+                  class="pic"
+                  width="370"
+                  height="294"
+                  src="images/img88.jpg"
+                  alt="мужчина печатает на ноутбуке"
+                />
+                <p class="ski-box-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dicta porro
+                  doloremque consectetur, ad cupiditate deleniti dignissimos beatae esse explicabo
+                  quo iure asperiores dolorem voluptate cumque ut fugiat, quasi necessitatibus.
+                </p>
+              </div>
+              <div class="project-name">
+                <h2 class="title" lang="en">Growing Business</h2>
+                <p class="text">Приложение</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--Подвал-->
+    <!--Подвал-->
+    <footer class="footer-section">
+      <div class="container footer-info">
+        <div class="footer-info-address">
+          <a href="./index.html" class="footer-logo link">Web<span class="inner">Studio</span></a>
+          <address>
+            <ul class="list">
+              <li class="type">
+                <a
+                  href="https://goo.gl/maps/yP3cJNycTKbXTuei9"
+                  class="map link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="type">
+                <a href="mailto:info@devstudio.com" class="info link">info@devstudio.com</a>
+              </li>
+              <li><a href="tel:+380961111111" class="info link">+38 096 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-info-flex">
+          <h3 class="footer-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+          <ul class="social-team-list">
+            <li class="social-icon">
+              <a href="" class="icon-click">
+                <svg class="social-link-icon" width="20" height="20">
+                  <use href="./images/svgsprite/symbol-defs.svg#icon-inst"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon">
+              <a href="" class="icon-click">
+                <svg class="social-link-icon" width="20" height="20">
+                  <use href="./images/svgsprite/symbol-defs.svg#icon-twi"></use></svg
+              ></a>
+            </li>
+            <li class="social-icon">
+              <a href="" class="icon-click">
+                <svg class="social-link-icon" width="20" height="20">
+                  <use href="./images/svgsprite/symbol-defs.svg#icon-fb"></use></svg
+              ></a>
+            </li>
+            <li class="social-icon">
+              <a href="" class="icon-click">
+                <svg class="social-link-icon" width="20" height="20">
+                  <use href="./images/svgsprite/symbol-defs.svg#icon-in"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-form">
+          <h3 class="footer-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+          <form class="footer-form">
+            <div class="brim-modal footer-form-flex">
+              <input
+                type="email"
+                class="footer-input"
+                name="email"
+                required
+                title=""
+                placeholder="E-mail"
+                id="user-email-footer"
+              />
+              <button type="submit" class="hero-button footer-btn">
+                Подписаться<svg class="icon-send" width="24" height="24">
+                  <use href="./images/svgsprite/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
