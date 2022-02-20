@@ -6,7 +6,7 @@
   display: flex;
 }
 
-.benefits-icon {
+.benefits__box-icon {
   background-color: #f5f4fa;
   display: flex;
   align-items: center;
@@ -17,14 +17,14 @@
   height: 120px;
 }
 
-.benefits .item {
+.benefits .benefits__item {
   width: 270px;
 }
 
-.benefits .item + .item {
+.benefits .benefits__item + .benefits__item {
   margin-left: 30px;
 }
-.benefits .title {
+.benefits .benefits__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -32,7 +32,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.benefits .text {
+.benefits .benefits__text {
   color: var(--header-contacts-text-color);
   font-size: 14px;
   line-height: 2;

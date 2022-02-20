@@ -1,20 +1,18 @@
-.work-section {
+.work__section {
   padding-bottom: 94px;
 }
-.work-section .main {
+.work__section .work__main {
   display: flex;
   position: relative;
 }
-.main .work-item + .work-item {
+.work__main .work-main__item + .work-main__item {
   margin-left: 30px;
 }
 
-
-
-.work-item {
+.work-main__item {
   position: relative;
 }
-.work {
+.work__title {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +23,7 @@
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
 }
-.work-text {
+.work__text {
   display: flex;
   justify-content: center;
   font-weight: 700;
