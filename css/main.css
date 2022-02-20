@@ -916,7 +916,7 @@ body {
   color: #757575;
 }
 
-.conditions-text span {
+.conditions-text .conditions-text__span {
   width: 16px;
   height: 15px;
   display: flex;
@@ -927,7 +927,7 @@ body {
   margin-right: 5px;
 }
 
-.conditions__check:checked + .conditions-text span {
+.conditions__check:checked + .conditions-text .conditions-text__span {
   background-color: var(--accent-color);
   border: none;
 }
